@@ -25,4 +25,34 @@
     // setTimeout( ()=>{
     //     downloadButton.removeAttribute('disabled');
     // },3000);
-    
+    // setInterval (()=>{
+    //     console.log('Hello print every seconds');
+    // },3000);
+    // let countDown =10;
+    // setInterval(()=>{
+    //     console.log(countDown);
+    //     countDown--;
+    // },1000);    
+// let secondLeft =10;
+
+// let updateCountDown = ()=> {
+//     if (secondLeft > 0) {
+//         console.log(secondLeft--);
+//     }
+//     else {
+//         clearInterval(countDownInterval);
+//     }
+// }
+// let countDownInterval = setInterval(updateCountDown,1000);
+let paragraph = document.getElementById('countdown');
+let secondsLeft =10;
+let updateCountDown = ()=> {
+    if (secondsLeft > 0) {
+        paragraph.textContent =`Your downlaod button will open in ${secondsLeft} seconds`;
+        secondsLeft--;
+    }   
+    else {
+        clearInterval(countDownInterval);
+    }
+}
+let countDownInterval = setInterval(updateCountDown,1000);
