@@ -44,15 +44,29 @@
 //     }
 // }
 // let countDownInterval = setInterval(updateCountDown,1000);
-let paragraph = document.getElementById('countdown');
-let secondsLeft =10;
-let updateCountDown = ()=> {
-    if (secondsLeft > 0) {
-        paragraph.textContent =`Your downlaod button will open in ${secondsLeft} seconds`;
-        secondsLeft--;
-    }   
-    else {
-        clearInterval(countDownInterval);
-    }
-}
-let countDownInterval = setInterval(updateCountDown,1000);
+// let paragraph = document.getElementById('countdown');
+// let downloadButton = document.getElementById('download');
+// let secondsLeft =10;
+// let updateCountDown = ()=> {
+//     if (secondsLeft > 0) {
+//         paragraph.textContent =`Your downlaod button will open in ${secondsLeft} seconds`;
+//         secondsLeft--;
+//     }   
+//     else {
+//         clearInterval(countDownInterval);
+//         downloadButton.removeAttribute('disabled');
+//     }
+// }
+// let countDownInterval = setInterval(updateCountDown,1000);
+
+// let name = window.prompt('enter your name','guest');
+// console.log('Hi',{name});
+// alert('hello world');
+
+// let userConfirmed = confirm('Are you sure you want delete to this item');
+// if(userConfirmed){
+//     console.log('item deleted');
+// } else {
+//     console.log('action Cancelled');
+// }
+
