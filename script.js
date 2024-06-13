@@ -69,4 +69,14 @@
 // } else {
 //     console.log('action Cancelled');
 // }
-
+// const button = document.getElementById('button');
+// button.addEventListener('click',function(){
+//     console.log ('button clicked!');
+// });
+// const divElement =document.getElementById('divElement');
+// divElement.addEventListener('mouseover',function (){
+//     divElement.style.backgroundColor= 'blue';
+// });
+// divElement.addEventListener('mouseout',function (){
+//     divElement.style.backgroundColor= 'white';
+// });
