@@ -80,3 +80,32 @@
 // divElement.addEventListener('mouseout',function (){
 //     divElement.style.backgroundColor= 'white';
 // });
+// console.log(window.location.protocol);
+// let sayHello = ()=>
+//     {console.log('Hello Guys');
+// }
+// window.setTimeout (sayHello,5000);
+
+// window.setTimeout(()=> {
+// console.log('Hello Guest!');
+// },3000);
+
+// let downloadButton = document.getElementById('Download');
+// setTimeout(()=>{
+//     downloadButton.removeAttribute('disabled');
+// },3000);
+
+// const userConfirmed = confirm('Are sure you want to delete this item or no ?');
+// if(userConfirmed){
+//     console.log('deleted');
+// }else{
+//     console.log('action cancelled');
+// }
+
+let divElement =document.getElementById('divElement');
+divElement.addEventListener('mouseover',function(){
+    divElement.style.backgroundColor ='Green';
+});
+divElement.addEventListener('mouseout',function(){
+    divElement.style.backgroundColour ='white';
+});
